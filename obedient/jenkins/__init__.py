@@ -61,12 +61,13 @@ def create_one(version):
     return jenkins
 
 
-def create(ships, httpport=80, version='1.583'):
+def create(ships, httpport=80, agentport=50000, version='1.583'):
     jenkinses = []
     for ship in ships:
         jenkins = create_one(version)
         ship.place(jenkins)
         jenkins.doors['http'].expose(httpport)
+        jenkins.doors['agent'].expose(agentport)
         ship.expose_all(range(50000, 50100))
 
         jenkinses.append(jenkins)
