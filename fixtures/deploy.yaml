@@ -1,0 +1,192 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: GET
+    uri: http://localhost:4243/v1.12/containers/json?limit=-1&trunc_cmd=1&size=0&all=1
+  response:
+    body: {string: '[]'}
+    headers:
+      Content-Length: ['2']
+      Content-Type: [application/json]
+      Date: ['Thu, 09 Oct 2014 09:00:04 GMT']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: GET
+    uri: http://localhost:4243/v1.12/containers/json?limit=-1&trunc_cmd=1&size=0&all=1
+  response:
+    body: {string: '[]'}
+    headers:
+      Content-Length: ['2']
+      Content-Type: [application/json]
+      Date: ['Thu, 09 Oct 2014 09:00:04 GMT']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: GET
+    uri: http://localhost:4243/v1.12/images/json?filter=registry.ape.yandex.net%2Fnikicat%2Fjenkins&only_ids=0&all=1
+  response:
+    body: {string: '[{"Created":1412845022,"Id":"e6ccb87e32eedffcfcc9550279d4766f0babb3787ac47a2d1386364e1c9fc403","ParentId":"bcbdebcf844a0cd47f7e59dca3251e2d0ba5626dc4b53b6aa0a06091170bea10","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:36NwC97CaLLJcp7EYV67U3RVSmfPQ2dSf-WsbOiJcSY="],"Size":215,"VirtualSize":814298313}
+
+        ,{"Created":1412164658,"Id":"8c298825d32afb2b4ea878d080a6b1059c9fd9c71b09216bb967b8cce363fb00","ParentId":"c64e40842af8646192b91602b43be5c0565d89652e0f110c2396fd6b64fac4c9","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:DtmN6kzk5yTyhbhQRV4KT4JfIo4LAyCbRh26+OlOcWs="],"Size":215,"VirtualSize":767473424}
+
+        ,{"Created":1411390264,"Id":"c5c061f69bc3c5b289389167e923cf8ac42e1bd371e1149dde6edb2415e78276","ParentId":"e419dd631fc49e623f96fc8a3012e7042d612dde6372f94b4d580f0d7d7e8157","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:XLJNYvJo9IAM-aMF1HXEKzfXYGWcMaxD47W4hSBnVVU="],"Size":215,"VirtualSize":765900101}
+
+        ,{"Created":1411383451,"Id":"aef08bc969840b20cb182a845f5d9e32403a753418285cf539369fbabd4738b0","ParentId":"fa67824aa241678a2e04bda641017329c8073864a0a12fb1493c781347c1aad6","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:Q-QaJ+ZR70aiXwp4IzEISo8Q45V43EEnHXCz0QbHGvI="],"Size":215,"VirtualSize":750408010}
+
+        ,{"Created":1411382495,"Id":"e64f3b3658dc2b413eea3c36b0fb6fcf0a5ddb80780bca364da6ee4b7789e601","ParentId":"fa67824aa241678a2e04bda641017329c8073864a0a12fb1493c781347c1aad6","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:PtjZU+hJwur1WiPwp5L3iACCZkvuS8JeWF1cwK+IDPg="],"Size":212,"VirtualSize":750408007}
+
+        ,{"Created":1411382393,"Id":"2f3dae08d2875cbe594b70fb1bdc19e031ad4f02bfb13bccb9820386cbf1b830","ParentId":"c8f2f0cb37630e32656ee4edd2d36833725605a257acfa1882396b707255535c","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:GOi81HwhN7zxuwtLlrWPat3FTnZVmmXqsxBo6M6B8l8="],"Size":212,"VirtualSize":750408007}
+
+        ,{"Created":1411382235,"Id":"f76fe383fccd5c28afb88d0226e44a6ed8f5cae327f3b5a25fd7b28e0cb503b9","ParentId":"e822e7238944c65d2d2044cda3cbaf92484193f4139f9984976d646dc679eece","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:TL7iHkONf9tWe1sV3ecNV4ZAti-PYfoQu4S65b-8yi0="],"Size":212,"VirtualSize":750766401}
+
+        ,{"Created":1411382138,"Id":"c7fb9e9dbbfa90f427c6296816a4c9dd314aa8e5999e172f3252c87b31181d3e","ParentId":"2ddef4409313efb5a8def6f7f7f066b2fa4ed4b8090abccff390890bc99d3784","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:VtZ6FpU9i65G9lIMsUm0qQDKYtw5oWfl7SZjWCPZnmg="],"Size":212,"VirtualSize":750766401}
+
+        ,{"Created":1411381974,"Id":"b0b8047c48b4dbe539a5229606daae3e183c863bdd88e0eb8569485b93b3d089","ParentId":"c60ca0dd6ba2c7d65970576e6372bfa8080880b5c6d35688b64d0b8fc9bfa51c","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:0oUGgdWky2H1aapz+jffmuMevlwyb7uNIZ0qAcHRoJ0="],"Size":212,"VirtualSize":750766401}
+
+        ,{"Created":1411381938,"Id":"70f226395b45355a0d7f6eff6743a46bd48e6664b2d9ddd80553098d6fc87002","ParentId":"83db647ecc15904f394f3531d11aee2100d8e43bb776b526de099003d2779c05","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:XT-a9gfcgRBt8fiXZZ7-0NkpisfENL5sKX0Ft0pGEKQ="],"Size":212,"VirtualSize":750766401}
+
+        ,{"Created":1411381308,"Id":"bd62c66c0288fe0dd30fa3d2ad3e94602b7dcd556b8ab9c055ea5986e572e881","ParentId":"b7c0e3747015c48c5a191d97503456e3c2594702f087793621e3eb823a9195be","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:DouaSNenLv4tEjalHs2sASutwoIw8AKR6v48zEqsUDw="],"Size":268,"VirtualSize":750766457}
+
+        ,{"Created":1411381051,"Id":"7e2e32126511dbbfed37e944827df0c28376ea149447d14b7d08ecb5c356aad7","ParentId":"7199ec8c8ffb3b412c96feba34b2a0f32efad635cdee3c98d9a99569b4aea850","RepoTags":["registry.ape.yandex.net/nikicat/jenkins:9Y6b2k0K+GqZnQvoKNBl6VWF7G8RdtTZRELJwBWFflI="],"Size":268,"VirtualSize":750766457}
+
+        ]'}
+    headers:
+      Content-Type: [application/json]
+      Date: ['Thu, 09 Oct 2014 09:00:05 GMT']
+      Transfer-Encoding: [chunked]
+    status: {code: 200, message: OK}
+- request:
+    body: '{"Env": [], "Hostname": "jenkins-localship", "OpenStdin": true, "AttachStderr":
+      true, "Tty": false, "ExposedPorts": {"50000/tcp": {}, "8080/tcp": {}}, "AttachStdout":
+      true, "Image": "registry.ape.yandex.net/nikicat/jenkins:e6ccb87e32eedffcfcc9550279d4766f0babb3787ac47a2d1386364e1c9fc403",
+      "Memory": 0, "MemorySwap": 0, "NetworkDisabled": false, "AttachStdin": true,
+      "User": "", "StdinOnce": true}'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['397']
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: POST
+    uri: http://localhost:4243/v1.12/containers/create?name=default.jenkins
+  response:
+    body: {string: '{"Id":"048277c3612342c84a6b5715b62796f12541e7d65322c764d2ca926760be7508","Warnings":null}
+
+'}
+    headers:
+      Content-Length: ['90']
+      Content-Type: [application/json]
+      Date: ['Thu, 09 Oct 2014 09:00:05 GMT']
+    status: {code: 201, message: Created}
+- request:
+    body: '{"Privileged": false, "Binds": ["/tmp/data/default/jenkins/var/jenkins_home:/var/jenkins_home:rw",
+      "/tmp/data/default/jenkins/var/log/jenkins:/var/log/jenkins:rw", "/tmp/config/default/jenkins/etc/jenkins:/etc/jenkins:ro"],
+      "PortBindings": {"50000/tcp": [{"HostPort": "50099", "HostIp": "::"}], "8080/tcp":
+      [{"HostPort": "10080", "HostIp": "::"}]}, "PublishAllPorts": false}'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['374']
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: POST
+    uri: http://localhost:4243/v1.12/containers/048277c3612342c84a6b5715b62796f12541e7d65322c764d2ca926760be7508/start
+  response:
+    body: {string: ''}
+    headers:
+      Date: ['Thu, 09 Oct 2014 09:00:05 GMT']
+    status: {code: 204, message: No Content}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: GET
+    uri: http://localhost:4243/v1.12/containers/json?limit=-1&trunc_cmd=1&size=0&all=1
+  response:
+    body: {string: '[{"Command":"bash /scripts/jenkins.sh","Created":1412845205,"Id":"048277c3612342c84a6b5715b62796f12541e7d65322c764d2ca926760be7508","Image":"registry.ape.yandex.net/nikicat/jenkins:36NwC97CaLLJcp7EYV67U3RVSmfPQ2dSf-WsbOiJcSY=","Names":["/default.jenkins"],"Ports":[{"IP":"::","PrivatePort":8080,"PublicPort":10080,"Type":"tcp"},{"IP":"::","PrivatePort":50000,"PublicPort":50099,"Type":"tcp"}],"Status":"Up
+        Less than a second"}
+
+        ]'}
+    headers:
+      Content-Length: ['428']
+      Content-Type: [application/json]
+      Date: ['Thu, 09 Oct 2014 09:00:05 GMT']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: GET
+    uri: http://localhost:4243/v1.12/containers/048277c3612342c84a6b5715b62796f12541e7d65322c764d2ca926760be7508/json
+  response:
+    body: {string: '{"Args":["/scripts/jenkins.sh"],"Config":{"AttachStderr":true,"AttachStdin":true,"AttachStdout":true,"Cmd":["bash","/scripts/jenkins.sh"],"CpuShares":0,"Cpuset":"","Domainname":"","Entrypoint":null,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","INITRD=No","FAKE_CHROOT=1","HOME=/root","LC_ALL=C.UTF-8","JENKINS_HOME=/var/jenkins_home"],"ExposedPorts":{"50000/tcp":{},"8080/tcp":{}},"Hostname":"jenkins-localship","Image":"registry.ape.yandex.net/nikicat/jenkins:e6ccb87e32eedffcfcc9550279d4766f0babb3787ac47a2d1386364e1c9fc403","Memory":0,"MemorySwap":0,"NetworkDisabled":false,"OnBuild":null,"OpenStdin":true,"PortSpecs":null,"StdinOnce":true,"Tty":false,"User":"","Volumes":{"/var/jenkins_home":{}},"WorkingDir":"/root"},"Created":"2014-10-09T09:00:05.068139505Z","Driver":"aufs","ExecDriver":"native-0.2","HostConfig":{"Binds":["/tmp/data/default/jenkins/var/jenkins_home:/var/jenkins_home:rw","/tmp/data/default/jenkins/var/log/jenkins:/var/log/jenkins:rw","/tmp/config/default/jenkins/etc/jenkins:/etc/jenkins:ro"],"CapAdd":null,"CapDrop":null,"ContainerIDFile":"","Devices":null,"Dns":null,"DnsSearch":null,"Links":null,"LxcConf":null,"NetworkMode":"","PortBindings":{"50000/tcp":[{"HostIp":"::","HostPort":"50099"}],"8080/tcp":[{"HostIp":"::","HostPort":"10080"}]},"Privileged":false,"PublishAllPorts":false,"VolumesFrom":null},"HostnamePath":"/var/lib/docker/containers/048277c3612342c84a6b5715b62796f12541e7d65322c764d2ca926760be7508/hostname","HostsPath":"/var/lib/docker/containers/048277c3612342c84a6b5715b62796f12541e7d65322c764d2ca926760be7508/hosts","Id":"048277c3612342c84a6b5715b62796f12541e7d65322c764d2ca926760be7508","Image":"e6ccb87e32eedffcfcc9550279d4766f0babb3787ac47a2d1386364e1c9fc403","MountLabel":"","Name":"/default.jenkins","NetworkSettings":{"Bridge":"docker0","Gateway":"172.17.42.1","IPAddress":"172.17.0.83","IPPrefixLen":16,"PortMapping":null,"Ports":{"50000/tcp":[{"HostIp":"::","HostPort":"50099"}],"8080/tcp":[{"HostIp":"::","HostPort":"10080"}]}},"Path":"bash","ProcessLabel":"","ResolvConfPath":"/etc/resolv.conf","State":{"ExitCode":0,"FinishedAt":"0001-01-01T00:00:00Z","Paused":false,"Pid":31233,"Running":true,"StartedAt":"2014-10-09T09:00:05.281312016Z"},"Volumes":{"/etc/jenkins":"/tmp/config/default/jenkins/etc/jenkins","/var/jenkins_home":"/tmp/data/default/jenkins/var/jenkins_home","/var/log/jenkins":"/tmp/data/default/jenkins/var/log/jenkins"},"VolumesRW":{"/etc/jenkins":false,"/var/jenkins_home":true,"/var/log/jenkins":true}}
+
+'}
+    headers:
+      Content-Type: [application/json]
+      Date: ['Thu, 09 Oct 2014 09:00:05 GMT']
+      Transfer-Encoding: [chunked]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: GET
+    uri: http://localhost:4243/v1.12/images/e6ccb87e32eedffcfcc9550279d4766f0babb3787ac47a2d1386364e1c9fc403/json
+  response:
+    body: {string: '{"Architecture":"amd64","Author":"","Comment":"","Config":{"AttachStderr":false,"AttachStdin":false,"AttachStdout":false,"Cmd":["bash","/scripts/jenkins.sh"],"CpuShares":0,"Cpuset":"","Domainname":"","Entrypoint":null,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","INITRD=No","FAKE_CHROOT=1","HOME=/root","LC_ALL=C.UTF-8","JENKINS_HOME=/var/jenkins_home"],"ExposedPorts":{"50000/tcp":{},"8080/tcp":{}},"Hostname":"9818fcbe520e","Image":"bcbdebcf844a0cd47f7e59dca3251e2d0ba5626dc4b53b6aa0a06091170bea10","Memory":0,"MemorySwap":0,"NetworkDisabled":false,"OnBuild":[],"OpenStdin":false,"PortSpecs":null,"StdinOnce":false,"Tty":false,"User":"","Volumes":{"/var/jenkins_home":{}},"WorkingDir":"/root"},"Container":"57bd40cef8b05f1c4c06399cead26fd513790376afbb93057a3c591bfb446bce","ContainerConfig":{"AttachStderr":false,"AttachStdin":false,"AttachStdout":false,"Cmd":["/bin/sh","-c","#(nop)
+        ADD  in /scripts/jenkins.sh"],"CpuShares":0,"Cpuset":"","Domainname":"","Entrypoint":null,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","INITRD=No","FAKE_CHROOT=1","HOME=/root","LC_ALL=C.UTF-8","JENKINS_HOME=/var/jenkins_home"],"ExposedPorts":{"50000/tcp":{},"8080/tcp":{}},"Hostname":"9818fcbe520e","Image":"bcbdebcf844a0cd47f7e59dca3251e2d0ba5626dc4b53b6aa0a06091170bea10","Memory":0,"MemorySwap":0,"NetworkDisabled":false,"OnBuild":[],"OpenStdin":false,"PortSpecs":null,"StdinOnce":false,"Tty":false,"User":"","Volumes":{"/var/jenkins_home":{}},"WorkingDir":"/root"},"Created":"2014-10-09T08:57:02.441359096Z","DockerVersion":"1.1.2-dev","Id":"e6ccb87e32eedffcfcc9550279d4766f0babb3787ac47a2d1386364e1c9fc403","Os":"linux","Parent":"bcbdebcf844a0cd47f7e59dca3251e2d0ba5626dc4b53b6aa0a06091170bea10","Size":215}
+
+'}
+    headers:
+      Content-Length: ['1760']
+      Content-Type: [application/json]
+      Date: ['Thu, 09 Oct 2014 09:00:05 GMT']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.4.3 CPython/3.4.1 Linux/3.15.7-1-aufs_friendly]
+    method: GET
+    uri: http://localhost:4243/v1.12/images/e6ccb87e32eedffcfcc9550279d4766f0babb3787ac47a2d1386364e1c9fc403/json
+  response:
+    body: {string: '{"Architecture":"amd64","Author":"","Comment":"","Config":{"AttachStderr":false,"AttachStdin":false,"AttachStdout":false,"Cmd":["bash","/scripts/jenkins.sh"],"CpuShares":0,"Cpuset":"","Domainname":"","Entrypoint":null,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","INITRD=No","FAKE_CHROOT=1","HOME=/root","LC_ALL=C.UTF-8","JENKINS_HOME=/var/jenkins_home"],"ExposedPorts":{"50000/tcp":{},"8080/tcp":{}},"Hostname":"9818fcbe520e","Image":"bcbdebcf844a0cd47f7e59dca3251e2d0ba5626dc4b53b6aa0a06091170bea10","Memory":0,"MemorySwap":0,"NetworkDisabled":false,"OnBuild":[],"OpenStdin":false,"PortSpecs":null,"StdinOnce":false,"Tty":false,"User":"","Volumes":{"/var/jenkins_home":{}},"WorkingDir":"/root"},"Container":"57bd40cef8b05f1c4c06399cead26fd513790376afbb93057a3c591bfb446bce","ContainerConfig":{"AttachStderr":false,"AttachStdin":false,"AttachStdout":false,"Cmd":["/bin/sh","-c","#(nop)
+        ADD  in /scripts/jenkins.sh"],"CpuShares":0,"Cpuset":"","Domainname":"","Entrypoint":null,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin","INITRD=No","FAKE_CHROOT=1","HOME=/root","LC_ALL=C.UTF-8","JENKINS_HOME=/var/jenkins_home"],"ExposedPorts":{"50000/tcp":{},"8080/tcp":{}},"Hostname":"9818fcbe520e","Image":"bcbdebcf844a0cd47f7e59dca3251e2d0ba5626dc4b53b6aa0a06091170bea10","Memory":0,"MemorySwap":0,"NetworkDisabled":false,"OnBuild":[],"OpenStdin":false,"PortSpecs":null,"StdinOnce":false,"Tty":false,"User":"","Volumes":{"/var/jenkins_home":{}},"WorkingDir":"/root"},"Created":"2014-10-09T08:57:02.441359096Z","DockerVersion":"1.1.2-dev","Id":"e6ccb87e32eedffcfcc9550279d4766f0babb3787ac47a2d1386364e1c9fc403","Os":"linux","Parent":"bcbdebcf844a0cd47f7e59dca3251e2d0ba5626dc4b53b6aa0a06091170bea10","Size":215}
+
+'}
+    headers:
+      Content-Length: ['1760']
+      Content-Type: [application/json]
+      Date: ['Thu, 09 Oct 2014 09:00:05 GMT']
+    status: {code: 200, message: OK}
+version: 1
