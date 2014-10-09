@@ -1,0 +1,15 @@
+language: python
+python:
+- 3.4
+env:
+  matrix:
+  - TOXENV=flake8
+  - TOXENV=pylint
+  - TOXENV=dominator
+install:
+- pip install tox
+script: tox -v
+notifications:
+  hipchat:
+    rooms:
+      secure: X9f2xw8leTwRUwLkfohfl3kgIs0FNx8gx0X3VlHnJjDC1YlhesuzN5TWPpTJf+uyoSKm/wJtuP0207Bye1aY+sPOlWqjI2W3PshCmU4WqFf0YY1d9SxdcDBpysRX4chdxTm8ABfKYrRYqxOQNCAltmUhe1WOTiZ5C6pJt27h2GQ=
